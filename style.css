@@ -1,0 +1,27 @@
+#game-board {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #EEE;
+    margin: 0 auto;
+    border: 1px solid #CCC;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.snake {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.food {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
